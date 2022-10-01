@@ -1,0 +1,106 @@
+
+/*font styling and basic properties*/
+
+body{
+  background-color: #FFFDE3;
+  color:#72a12b;
+  font-family:'Monserrat',serif;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+/* Header div  properties */
+
+
+
+.header{
+  background-color: #CFE8A9;
+  text-align: center;
+  margin: 0;
+  padding-top: 15rem;
+  position: relative;
+}
+
+
+.top-cloud{
+  position:absolute;
+  top:4.5rem;
+  right:18rem;
+}
+
+.middle-cloud{
+  position:absolute;
+  left:18rem;
+  bottom: 20rem;
+}
+
+.header-title{
+  font-family: 'Sacramento',cursive;
+  font-size: 5rem;
+  margin-top:2rem;
+  line-height: 4rem;
+  margin: 2rem auto 0 auto;
+  color: #72a12b;
+
+}
+
+.header-text{
+  font-family: 'Roboto',sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color:#80b530;
+
+}
+
+
+/* BODY STYLE */
+
+
+.skills_subheading,.contact_subheading{
+  color:#80b530;
+}
+
+a{
+  color:#80b530;
+}
+
+p{
+  color:black;
+}
+
+
+/* SKILLS SECTION */
+
+.skill-row{
+  display:inline-block;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align:left;
+  width:50rem;
+
+}
+
+
+.skill-code-img,.skill-photo-img{
+  width:25em;
+}
+
+.skill-photo-img{
+  width:25%;
+  float:left;
+  margin-right:2rem;
+}
+
+.skill-code-img{
+  width:25%;
+  float:right;
+  margin-left:2rem
+}
+
+.skills_subheading{
+  margin-top : auto;
+  margin-bottom: auto;
+}
